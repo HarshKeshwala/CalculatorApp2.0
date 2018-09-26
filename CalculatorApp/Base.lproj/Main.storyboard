@@ -26,6 +26,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNh-0Q-dcT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM4-bF-0Td">
                                 <rect key="frame" x="0.0" y="486" width="92.5" height="90"/>
@@ -35,6 +38,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZJ-QB-ItV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j10-iS-9U8">
                                 <rect key="frame" x="94" y="486" width="92.5" height="90"/>
@@ -44,6 +50,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dtL-u5-UVb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOg-KN-Z5d">
                                 <rect key="frame" x="188" y="486" width="92.5" height="90"/>
@@ -53,6 +62,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMq-ox-ARw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob9-vr-Bay">
                                 <rect key="frame" x="282" y="486" width="92.5" height="90"/>
@@ -80,6 +92,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJd-Py-Gss"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fi-FM-usM">
                                 <rect key="frame" x="94" y="395" width="92.5" height="90"/>
@@ -89,6 +104,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hDA-ar-KDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65Q-jc-iSs">
                                 <rect key="frame" x="188" y="395" width="92.5" height="90"/>
@@ -98,6 +116,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WxN-xZ-4f5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loI-98-a2v">
                                 <rect key="frame" x="282" y="395" width="92.5" height="90"/>
@@ -116,6 +137,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c8O-UF-ly3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6a-Q5-aZg">
                                 <rect key="frame" x="94" y="304" width="92.5" height="90"/>
@@ -125,6 +149,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yr-Gv-fur"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbI-h2-iFj">
                                 <rect key="frame" x="188" y="304" width="92.5" height="90"/>
@@ -134,6 +161,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkl-Q4-tge"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lob-Vl-Qg3">
                                 <rect key="frame" x="282" y="304" width="92.5" height="90"/>
@@ -180,12 +210,12 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Os3-Jf-7WI">
-                                <rect key="frame" x="-1" y="20" width="376" height="191"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" text="0" borderStyle="bezel" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Os3-Jf-7WI">
+                                <rect key="frame" x="-1" y="20" width="376" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVy-fs-0As">
@@ -197,11 +227,17 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="numbersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wQ-QZ-CTF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="resultTextview" destination="Os3-Jf-7WI" id="cyn-mo-yM2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

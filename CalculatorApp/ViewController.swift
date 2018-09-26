@@ -10,16 +10,41 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var resultTextview: UITextField!
+    var hasDecimal:Bool = false
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    @IBAction func numbersButton(_ sender: UIButton)
+    {
+        if(resultTextview.text == "0") {
+            
+            if(sender.tag != -1) {
+                resultTextview.text = ""
+                
+            }
+            else {
+                if(hasDecimal) {
+                    resultTextview.text = "0"
+                }
+            }
+            
+        }
+        
+        if(sender.tag == -1) {
+            if(!hasDecimal) {
+                resultTextview.text?.append(".")
+                hasDecimal = true
+            }
+        }
+        else {
+            resultTextview.text?.append(String(sender.tag))
+        }
     }
-
-
+    
 }
 
