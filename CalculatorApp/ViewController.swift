@@ -142,24 +142,7 @@ class ViewController: UIViewController {
     // function to evaluate different operations
     @IBAction func equalsOperation(_ sender: UIButton)
     {
-       
-        var result:String = "";
-        func printResult(result: String)
-        {
-            let r:Double = Double(result)!
-            
-            let isInteger = floor(r) == r
-            
-            if(isInteger == true)
-            {
-                resultTextview.text = String(Int64(r))
-            }
-            else
-            {
-                resultTextview.text = String(r)
-            }
-        }
-        
+        hasDecimal = true
         // disables the equal button if any operator is selected
         if operationFlag == 0
         {
@@ -173,20 +156,17 @@ class ViewController: UIViewController {
                     case 1: // addition operation
                         let temp1:String = resultTextview.text!
                         currentNumber = previousNumber + Double(temp1)!
-                        result = String(currentNumber)
-                        printResult(result: result)
+                        resultTextview.text = String(currentNumber)
                         previousNumber = 0
                     case 2: // substraction operation
                         let temp2:String = resultTextview.text!
                         currentNumber = previousNumber - Double(temp2)!
-                       result = String(currentNumber)
-                      printResult(result: result)
+                        resultTextview.text = String(currentNumber)
                         previousNumber = 0
                     case 3: // multiplication operation
                         let temp3:String = resultTextview.text!
                         currentNumber = (previousNumber * (Double(temp3))!)
-                        result = String(currentNumber)
-                        printResult(result: result)
+                        resultTextview.text = String(currentNumber)
                         previousNumber = 0
                     case 4: // division operation
                         let temp4:String = resultTextview.text!
@@ -198,8 +178,7 @@ class ViewController: UIViewController {
                         else
                         {
                             currentNumber = (previousNumber / (Double(temp4))!)
-                            result = String(currentNumber)
-                            printResult(result: result)
+                            resultTextview.text = String(currentNumber)
                             previousNumber = 0
                         }
                     default:
